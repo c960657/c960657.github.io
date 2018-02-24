@@ -2,4 +2,5 @@
 
 [Aggemam?](https://aggemam.dk)
 
-Nu også med lappendisk birkenskum.
+[RFC 7239 – Forwarded HTTP Header](forwarded.md)
+
