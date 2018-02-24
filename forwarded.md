@@ -5,7 +5,7 @@
 
 ## Support
 ### Proxy servers
-* **Apache httpd (mod_proxy_http)**: No support, [bug report with patch available](https://bz.apache.org/bugzilla/show_bug.cgi?id=58001).
+* **Apache httpd, mod_proxy_http**: No support, [bug report with patch available](https://bz.apache.org/bugzilla/show_bug.cgi?id=58001).
 * **Apache Traffic Server**: [Supported](https://docs.trafficserver.apache.org/en/latest/admin-guide/files/records.config.en.html#proxy-config-http-insert-forwarded).
 * **Go, net/http/httputil**: [Not supported](https://github.com/golang/go/issues/20526).
 * **Nginx**: No native support, but [supported via configuration files](https://www.nginx.com/resources/wiki/start/topics/examples/forwarded/).
@@ -21,7 +21,7 @@
 
 #### Java
 * **Spring Boot**: [Not suppored](https://github.com/spring-projects/spring-boot/blob/master/spring-boot-project/spring-boot-docs/src/main/asciidoc/howto.adoc#running-behind-a-front-end-proxy-server).
-* **Spring Framework**: [Supported[https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/reactive/function/server/ServerRequest.html#i22).
+* **Spring Framework**: [Supported](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/reactive/function/server/ServerRequest.html#i22).
 
 #### .NET
 * **ASP.NET**: [Not supported](https://github.com/aspnet/BasicMiddleware/issues/28).
@@ -36,7 +36,7 @@
 * **Drupal**: [Supported](https://api.drupal.org/api/drupal/vendor%21symfony%21http-foundation%21Request.php/function/Request%3A%3AsetTrustedHeaderName/8.5.x).
 * **Laravel**: Supported.
 * **MediaWiki**: [Not supported](https://github.com/wikimedia/mediawiki/blob/89843b44ce94bcbb75b69f25c00c30f0ecc12752/includes/WebRequest.php#L1208).
-* **Symfony**: [Supported](https://symfony.com/doc/3.1/request/load_balancer_reverse_proxy.html) in Symfony\Component\HttpFoundation\Request.
+* **Symfony, HttpFoundation**: [Supported](https://symfony.com/doc/3.1/request/load_balancer_reverse_proxy.html).
 
 #### Python
 * **AIOHTTP**: [Supported](https://docs.aiohttp.org/en/v3.0.1/web_advanced.html#deploying-behind-a-proxy).
