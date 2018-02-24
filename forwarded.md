@@ -20,7 +20,7 @@
 * **httpforwarded**: [Supported](https://github.com/theckman/httpforwarded).
 
 #### Java
-* **Spring Boot**: [Not suppored](https://github.com/spring-projects/spring-boot/blob/master/spring-boot-project/spring-boot-docs/src/main/asciidoc/howto.adoc#running-behind-a-front-end-proxy-server).
+* **Spring Boot**: [Not supported](https://github.com/spring-projects/spring-boot/blob/master/spring-boot-project/spring-boot-docs/src/main/asciidoc/howto.adoc#running-behind-a-front-end-proxy-server).
 * **Spring Framework**: [Supported](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/reactive/function/server/ServerRequest.html#i22).
 
 #### .NET
