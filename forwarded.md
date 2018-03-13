@@ -8,6 +8,7 @@
 * **Apache httpd, mod_proxy_http**: No support, [bug report with patch available](https://bz.apache.org/bugzilla/show_bug.cgi?id=58001).
 * **Apache Traffic Server**: [Supported](https://docs.trafficserver.apache.org/en/latest/admin-guide/files/records.config.en.html#proxy-config-http-insert-forwarded).
 * **Go, net/http/httputil**: [Not supported](https://github.com/golang/go/issues/20526).
+* **H2O**: [Not supported](https://github.com/h2o/h2o/issues/1617).
 * **Nginx**: No native support, but [supported via configuration files](https://www.nginx.com/resources/wiki/start/topics/examples/forwarded/).
 * **nghttpx**: [Supported](https://nghttp2.org/documentation/nghttpx.1.html?#cmdoption-nghttpx--add-forwarded).
 * **Traefik**: [Not supported](https://github.com/ldez/traefik/blob/master/vendor/github.com/vulcand/oxy/forward/rewrite.go#L22).
